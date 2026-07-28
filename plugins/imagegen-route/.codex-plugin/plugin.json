@@ -1,0 +1,30 @@
+{
+  "name": "imagegen-route",
+  "version": "0.1.0",
+  "description": "Safely route Codex's bundled image-generation CLI through the active custom provider.",
+  "author": {
+    "name": "363637570yy-lab",
+    "url": "https://github.com/363637570yy-lab"
+  },
+  "homepage": "https://github.com/363637570yy-lab/imagegen-route#readme",
+  "repository": "https://github.com/363637570yy-lab/imagegen-route",
+  "keywords": [
+    "codex",
+    "image-generation",
+    "provider-routing",
+    "powershell"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "ImageGen Route",
+    "shortDescription": "Safe custom-provider routing for the Codex image CLI",
+    "longDescription": "Validate the selected Codex provider and inject its endpoint and local Codex credential only into the bundled image-generation CLI child process.",
+    "developerName": "363637570yy-lab",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Use $imagegen-route to validate my custom image provider.",
+      "Use $imagegen-route for a path-only image generation run."
+    ]
+  }
+}
