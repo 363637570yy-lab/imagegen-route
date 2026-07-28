@@ -1,0 +1,20 @@
+{
+  "name": "imagegen-route-lab",
+  "interface": {
+    "displayName": "ImageGen Route Lab"
+  },
+  "plugins": [
+    {
+      "name": "imagegen-route",
+      "source": {
+        "source": "local",
+        "path": "./plugins/imagegen-route"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
