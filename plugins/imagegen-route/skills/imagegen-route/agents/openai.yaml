@@ -1,0 +1,7 @@
+interface:
+  display_name: "ImageGen Route"
+  short_description: "Route image CLI calls through Codex config"
+  default_prompt: "Use $imagegen-route to validate my configured image API route and prepare a path-only generation command."
+
+policy:
+  allow_implicit_invocation: false
